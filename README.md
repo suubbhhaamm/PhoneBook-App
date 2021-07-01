@@ -8,15 +8,15 @@ Step 3 - Open the folder in android studio.
 Step 4 - Now you are all set to acess "PhoneBook" source code and application.:)  
   
   ## USER INTERFACE OF APPLICATION  
-  ![PhoneBook-UI](https://user-images.githubusercontent.com/33429953/124088284-6d4eb880-da70-11eb-899a-9ffe42fc336d.jpeg)  
+  ![PhoneBook-UI](https://user-images.githubusercontent.com/33429953/124090379-67f26d80-da72-11eb-8878-47ad930744f3.jpeg)  
     
     
   ## USER INTERFACE OF RECORDS IN APPLICATION  
-  ![PhoneBook-Record](https://user-images.githubusercontent.com/33429953/124088540-a7b85580-da70-11eb-8cbe-31ded58b5584.jpeg)  
+  ![PhoneBook-Record](https://user-images.githubusercontent.com/33429953/124090409-717bd580-da72-11eb-8898-dfccc6d48821.jpeg)  
     
       
   **Click [here](https://github.com/suubbhhaamm/PhoneBook-App/blob/master/app/src/main/java/com/example/sqlite/MainActivity.java) for MainActivity.java file source code**  
   **Click [here](https://github.com/suubbhhaamm/PhoneBook-App/blob/master/app/src/main/java/com/example/sqlite/DBHandler.java) for DBHandler.java file source code**  
   **Click [here](https://github.com/suubbhhaamm/PhoneBook-App/blob/master/app/src/main/res/layout/activity_main.xml) for activity_main.xml file source code**  
     
-  **To get the apk file, upon downloading in zip format from github extract it and go to app>>release>>PhoneBook.apk is the required apk file of application.**
+  **To get the apk file, upon downloading in zip format from github extract it and go to app>>release>> PhoneBook.apk is the required apk file of application.**
