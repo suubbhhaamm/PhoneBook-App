@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text1"
+        android:text="PHONE BOOK"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Id to Modify or Delete"
+        android:id="@+id/id"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name to Insert or Modify"
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact to Insert or Modify"
+        android:id="@+id/contact"
+        android:textSize="20dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="50dp"
+        android:id="@+id/layout1"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/insert"
+            android:text="Add New Record"
+            android:textSize="16dp"
+            android:onClick="buttonAction"
+            android:backgroundTint="@android:color/holo_green_light"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modify Record"
+            android:onClick="buttonAction"
+            android:id="@+id/update"
+            android:textSize="16dp"
+            android:layout_below="@+id/insert"
+            android:backgroundTint="@android:color/holo_orange_light"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Record"
+            android:textSize="16dp"
+            android:onClick="buttonAction"
+            android:id="@+id/delete"
+            android:layout_below="@+id/update"
+            android:backgroundTint="@android:color/holo_red_light"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view"
+            android:text="View Record"
+            android:textSize="37dp"
+            android:onClick="buttonAction"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/delete"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
